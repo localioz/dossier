@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LAY</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- INITIAL SPLASH SCREEN OVERLAY -->
+    <div id="splash-screen" class="splash-overlay">
+        <h1 id="greeting-flash" class="splash-title">Hello!</h1>
+    </div>
+
+    <!-- TOP FLOATING NAVIGATION CONTAINER -->
+<header class="top-nav-wrapper">
+    <div class="top-nav-container">
+        <button class="hamburger-btn" id="hamburger-toggle" aria-label="Toggle navigation">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <nav class="nav-links-container" id="nav-links-container">
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="backstory.html">Backstory</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="field-notes.html">Field Notes</a></li>
+                <li><a href="disclaimer.html">Disclaimer</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+    <!-- MAIN HOME PAGE CONTENT -->
+    <main class="home-hero-container">
+        <div class="hero-content">
+            <!-- LIVE SYSTEM STATUS INDICATOR -->
+            <div class="system-status">
+                <span class="status-dot"></span> <span id="system-status-text">SYS_ONLINE // LOADING...</span>
+            </div>
+            <h1>Welcome!</h1>
+        <span class="hero-subtitle">I am <span id="hero-nickname" class="emphasis-nickname"></span><span class="cursor">|</span></span>            <a href="projects.html" class="workshop-btn">Explore My Workshop</a>
+        </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2026 Linus Yuan Antoine Lee. All rights reserved.</p>
+        <p>Admin: #DEMON</p>
+    </footer>
+
+    <!-- EXTERNAL SCRIPT -->
+    <script src="script.js"></script>
+</body>
+</html>

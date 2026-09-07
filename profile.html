@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="profile.css">
+</head>
+<body>
+    
+    <!-- WIDE FLOATING TOP CONTAINER NAVBAR -->
+    <header class="top-nav-wrapper">
+        <div class="top-nav-container">
+            <button class="hamburger-btn" id="hamburger-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav class="nav-links-container" id="nav-links-container">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="profile.html" class="active">Profile</a></li>
+                    <li><a href="backstory.html">Backstory</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="field-notes.html">Field Notes</a></li>
+                    <li><a href="disclaimer.html">Disclaimer</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- FULL-WIDTH HERO PHOTO HEADER SECTION -->
+    <header class="profile-hero-banner">
+        <div class="hero-banner-overlay"></div>
+        <div class="hero-banner-content">
+            <h1>LINUS YUAN</h1>
+            <h1>ANTOINE LEE</h1>
+            <div class="system-status">
+                <span class="status-dot"></span> <span>SYS_RECORD</span>
+            </div>
+        </header>
+
+        <!-- PROFILE CONTAINER LAYOUT -->
+    <div class="profile-container-layout">
+        <div class="inspo-grid">
+            
+            <!-- CARD 1: IDENTIFICATION MATRIX -->
+            <div class="inspo-card">
+                <h3>Identification Matrix</h3>
+                <ul class="dossier-list">
+                    <li><strong>Alias</strong> <span>Luis, Anton, Lay, <span class="spoiler-text" tabindex="0">Yuan</span></span></li>
+                    <li><strong>Face Claims</strong> <span>Song Weilong & Mark Tuan (GOT7)</span></li>
+                    <li><strong>Date of Birth</strong> <span>September 4, 1993</span></li>
+                    <li><strong>Age</strong> <span>33</span></li>
+                    <li><strong>Birthplace</strong> <span>Edgewater, Bergen County, NJ</span></li>
+                    <li><strong>Nationality</strong> <span>Korean-American</span></li>
+                    <li><strong>Timezone</strong> <span>GMT (+8)</span></li>
+                </ul>
+            </div>
+
+            <!-- CARD 2: CREDENTIALS & CLEARANCE -->
+            <div class="inspo-card">
+                <h3>SYSTEM SPECIFICATIONS</h3>
+                <div class="credentials-stack">
+                    <div class="cred-item">
+                        <strong>Education</strong>
+                        <p>BS in Manufacturing Engineering and Management, specializing in Mechatronics & Robotics Engineering (MEM-MRE) — DLSU, Manila</p>
+                    </div>
+                    <div class="cred-item">
+                        <strong>Occupation</strong>
+                        <p>Lead R&D Engineer</p>
+                    </div>
+                    <div class="cred-item">
+                        <strong>Secure Comms</strong>
+                        <p><a href="#" class="social-link">twitter.com/STATE0Z</a></p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+<!-- HTML Structure -->
+<div id="loading-screen" class="loading-screen">
+    <div class="animation-container">
+        <!-- Interactive circles playing -->
+        <div class="pets-playing">
+            <div class="maltese-circle"></div>
+            <div class="cat-circle"></div>
+        </div>
+        <div class="loading-text">Loading Profile...</div>
+    </div>
+</div>
+<!-- FOOTER -->
+    <footer>
+        <div>ADMIN: #DEMON</div>
+    </footer>
+
+    <script>
+        // Simple script to toggle spoiler state on click for touch screens / mobile
+        document.querySelectorAll('.spoiler-text').forEach(item => {
+            item.addEventListener('click', function() {
+                this.classList.toggle('manually-revealed');
+            });
+        });
+    </script>
+    <script src="backstory.js"></script>
+
+</body>
+</html>

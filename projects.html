@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link rel="stylesheet" href="projects.css">
+</head>
+<body>
+
+    <!-- WIDE FLOATING TOP CONTAINER NAVBAR -->
+    <header class="top-nav-wrapper">
+        <div class="top-nav-container">
+            <button class="hamburger-btn" id="hamburger-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav class="nav-links-container" id="nav-links-container">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="profile.html">Profile</a></li>
+                    <li><a href="backstory.html">Backstory</a></li>
+                    <li><a href="projects.html" class="active">Projects</a></li>
+                    <li><a href="field-notes.html">Field Notes</a></li>
+                    <li><a href="disclaimer.html">Disclaimer</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- MAIN CONTAINER WITH PROJECT CARDS -->
+    <main class="main-container">
+        
+        <!-- PROJECT 1: BAILEY -->
+        <section class="dossier-card project-card">
+            <div class="card-header">
+                <h2>BAILEY</h2>
+            </div>
+            <div class="project-content-grid">
+                <div class="project-text">
+                    <p>BAILEY started as a late-night experiment using spare parts Linus had lying around in his lab. He wanted to see if he could build a small four-legged machine that could move around on its own. What began as a simple project gradually became more advanced as he taught it how to balance, move around obstacles, and recognize its surroundings.</p>
+                    <p>Eventually, Linus connected BAILEY to Telegram so it could send him updates and respond to simple commands. It became a regular presence in his lab, moving between workbenches, carrying small tools, and occasionally bringing him his coffee when he was too focused on his work to get up. Linus still calls it “just a prototype,” despite how much time he has spent improving it.</p>
+                </div>
+                <div class="project-media">
+                    <!-- Replace src with your photo or video path -->
+                    <div class="media-placeholder">
+                        <img src="images/bailey.jpg" alt="BAILEY Robotic Unit">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECT 2: VIPER -->
+        <section class="dossier-card project-card">
+            <div class="card-header">
+                <h2>VIPER</h2>
+            </div>
+            <div class="project-content-grid">
+                <div class="project-text">
+                    <p>VIPER was created after Linus spent nearly three hours looking for a specific microcontroller buried somewhere in his lab. Frustrated with constantly losing track of small equipment, he decided to build something that could help him find things. The result was a handheld scanner with a camera and small display that could recognize and keep track of common objects around his workspace.</p>
+                    <p>Instead of searching through every shelf and container, Linus could use VIPER to help locate circuit boards, components, bottles, and other equipment. What started as a solution to one frustrating afternoon eventually became one of the most useful tools in his lab.</p>
+                </div>
+                <div class="project-media">
+                    <img src="images/viper.webp" alt="VIPER Diagnostic Telemetry Feed">
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECT 3: APEX-4 -->
+        <section class="dossier-card project-card">
+            <div class="card-header">
+                <h2>APEX</h2>
+            </div>
+            <div class="project-content-grid">
+                <div class="project-text">
+                    <p>APEX-4 came from a more serious problem. Linus had seen technicians enter hot, cramped, and potentially dangerous areas just to find out what was wrong with a machine. He wanted to create something that could go in first. APEX-4 is a small, heavily protected robot equipped with cameras and sensors that allow it to detect unusual heat, vibrations, and possible leaks.</p>
+                    <p>It can move through industrial areas, gather information, and send its findings back to the people monitoring it. The goal was never to replace the technicians, but to keep them out of unnecessary danger. For Linus, APEX-4 was a practical example of how robotics could be used to make difficult and dangerous work safer.</p>
+                </div>
+                <div class="project-media">
+                    <!-- Replace src with your photo or video path -->
+                    <div class="media-placeholder">
+                        <img src="images/apex.jfif" alt="APEX-4 Autonomous Inspection Robot">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <div id="loading-screen" class="loading-screen">
+    <div class="animation-container">
+        <!-- Interactive circles playing -->
+        <div class="pets-playing">
+            <div class="maltese-circle"></div>
+            <div class="cat-circle"></div>
+        </div>
+        <div class="loading-text">Loading Projects...</div>
+    </div>
+</div>
+    <!-- FOOTER -->
+    <footer>
+        <div>ADMIN: #DEMON</div>
+    </footer>
+
+    <script src="backstory.js"></script>
+
+</body>
+</html>
