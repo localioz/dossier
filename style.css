@@ -2,7 +2,7 @@
 body {
     background-color: #070b14;
     background-image: 
-        radial-gradient(circle at 50% 3s0%, rgba(20, 35, 60, 0.25) 0%, transparent 70%),
+        radial-gradient(circle at 50% 30%, rgba(20, 35, 60, 0.25) 0%, transparent 70%),
         linear-gradient(rgba(255, 255, 255, 0.012) 1px, transparent 1px),
         linear-gradient(90deg, rgba(255, 255, 255, 0.012) 1px, transparent 1px);
     background-size: 100% 100%, 40px 40px, 40px 40px;
